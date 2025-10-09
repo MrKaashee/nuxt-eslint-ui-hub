@@ -1,6 +1,10 @@
 <script lang="ts" setup>
+// const theme = {
+//   class: '   sm:p-0  p-0     ',
+// }
+
 const theme = {
-  class: '   sm:p-0  p-0     ',
+  base: tw`p-0 sm:p-0`,
 }
 </script>
 
