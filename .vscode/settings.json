@@ -8,13 +8,18 @@
     ["ui:\\s*{([^)]*)\\s*}", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
   ],
 
-  "editor.formatOnSave": false,
+  "editor.formatOnSave": true,
   "editor.formatOnPaste": false,
   "editor.formatOnType": false,
 
   "editor.codeActionsOnSave": {
     "source.fixAll": "never",
     "source.fixAll.eslint": "always"
+  },
+
+  // Use Prettier only for Tailwind class sorting
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "workbench.colorTheme": "GitHub Dark Default"
 }
