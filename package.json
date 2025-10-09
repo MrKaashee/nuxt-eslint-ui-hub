@@ -9,7 +9,8 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "db:generate": "drizzle-kit generate",
-    "sort-classes": "node sort-classes.js"
+    "sort-classes": "node sort-classes.js",
+    "clean-classes": "node clean-ui-classes.js"
   },
   "dependencies": {
     "@nuxt/eslint": "^1.9.0",

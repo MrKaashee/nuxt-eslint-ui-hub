@@ -1,6 +1,5 @@
 # Only format Vue files for Tailwind classes
 *.js
-*.ts
 *.mjs
 *.json
 *.md
@@ -10,3 +9,4 @@
 
 # Keep Vue files for Tailwind class sorting only
 # *.vue
+# *.ts

@@ -1,4 +1,8 @@
 {
   "plugins": ["prettier-plugin-tailwindcss"],
-  "bracketSameLine": true
+  "tailwindFunctions": ["clsx", "cn", "cva"],
+  "tailwindAttributes": ["class", "ui"],
+  "bracketSameLine": true,
+  "semi": false,
+  "singleQuote": true
 }
